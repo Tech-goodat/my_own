@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+}
+.navbar{
+    background-color:#30c8e6;
+    width:100%;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.logo{
+    color:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right:10%;
+   
+    
+}
+div .heading{
+    position:relative;
+    font-size:25px; 
+    
+}
+div .heading a{
+    color:white;
+    text-decoration:none;
+    
+
+}
+div .heading a span{
+    color:rgb(38, 38, 116);
+}
+   .navigation{
+        display:flex;
+        align-items:center;
+
+
+    }
+    .navigation ul{
+        list-style:none;
+        display:flex;
+    }
+    .navigation ul li{
+        display:flex;
+        justify-content:space-between;
+        padding:20px;
+
+    }
+    .navigation ul li a{
+        text-decoration:none;
+        color:white;
+    }
+    .navigation ul li a:hover{
+        border:none;
+        border-radius:2px;
+        background-color:#6bd3e8;
+        width:85px;
+        height:35px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        padding:10px;
+        cursor:pointer;
+        transition:(0.2s), ease-in-out;
+    }
+    #enter{
+        padding:10px;
+        border:none;
+        border-radius:5px;
+        margin-right:10%;
+
+    }
+    @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+    .search{
+        position:relative;
+       
+    }
+    .search input{
+        text-indent:30px;
+    }
+    .search .fa-search{
+     position:absolute;
+     top:12px;
+     left:80%;
+     font-size:15px;
+
+    }
+    .button{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-left:5%;
+        
+    }
+    
+    .button button{
+        padding:8px;
+        border:none;
+        border-radius:5px;
+        background:blue;
+        width:80px;
+        height:35px;
+         
+       
+    }
+    .button button a{
+        color:white;
+        text-decoration:none;
+        display:flex;
+        justify-content:center;
+        font-size:15px;
+
+    }

@@ -1,0 +1,1 @@
+alert("Continue form resubmission?");
